@@ -32,5 +32,19 @@
     "/css/common/bootstrap/bootstrap.rtl.css": "/css/common/bootstrap/bootstrap.rtl.css",
     "/css/common/bootstrap/bootstrap.rtl.css.map": "/css/common/bootstrap/bootstrap.rtl.css.map",
     "/css/common/bootstrap/bootstrap.rtl.min.css": "/css/common/bootstrap/bootstrap.rtl.min.css",
-    "/css/common/bootstrap/bootstrap.rtl.min.css.map": "/css/common/bootstrap/bootstrap.rtl.min.css.map"
+    "/css/common/bootstrap/bootstrap.rtl.min.css.map": "/css/common/bootstrap/bootstrap.rtl.min.css.map",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/common/bootstrap/bootstrap.bundle.js": "/js/common/bootstrap/bootstrap.bundle.js",
+    "/js/common/bootstrap/bootstrap.bundle.js.map": "/js/common/bootstrap/bootstrap.bundle.js.map",
+    "/js/common/bootstrap/bootstrap.bundle.min.js": "/js/common/bootstrap/bootstrap.bundle.min.js",
+    "/js/common/bootstrap/bootstrap.bundle.min.js.map": "/js/common/bootstrap/bootstrap.bundle.min.js.map",
+    "/js/common/bootstrap/bootstrap.esm.js": "/js/common/bootstrap/bootstrap.esm.js",
+    "/js/common/bootstrap/bootstrap.esm.js.map": "/js/common/bootstrap/bootstrap.esm.js.map",
+    "/js/common/bootstrap/bootstrap.esm.min.js": "/js/common/bootstrap/bootstrap.esm.min.js",
+    "/js/common/bootstrap/bootstrap.esm.min.js.map": "/js/common/bootstrap/bootstrap.esm.min.js.map",
+    "/js/common/bootstrap/bootstrap.js": "/js/common/bootstrap/bootstrap.js",
+    "/js/common/bootstrap/bootstrap.js.map": "/js/common/bootstrap/bootstrap.js.map",
+    "/js/common/bootstrap/bootstrap.min.js": "/js/common/bootstrap/bootstrap.min.js",
+    "/js/common/bootstrap/bootstrap.min.js.map": "/js/common/bootstrap/bootstrap.min.js.map",
+    "/js/main.js": "/js/main.js"
 }
