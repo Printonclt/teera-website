@@ -10,5 +10,18 @@ p{
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-   
+}
+footer {
+    p {
+        color: $white-color;
+    }
+    .foot {
+
+        p {
+            font-size: 12px;
+        }
+    }
+    h4 {
+        color: #fbe0af;
+    }
 }

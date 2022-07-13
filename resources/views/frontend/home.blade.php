@@ -24,11 +24,26 @@
             <img src="{{asset('images/banner/banner.jpg')}}" alt="" srcset="">
           </div>
           <div class="swiper-slide">
+            <div class="hero-content">
+                <h2 class="hero-heading white-color">Lorem Ipsum Dolersit Amet</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <div class="btn-wrapper">
+                    <a href="Read More" class="primary-button">Read More</a>
+                </div>
+            </div>
             <img src="{{asset('images/banner/banner.jpg')}}" alt="" srcset="">
           </div>
           <div class="swiper-slide">
+            <div class="hero-content">
+                <h2 class="hero-heading white-color">Lorem Ipsum Dolersit Amet</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                <div class="btn-wrapper">
+                    <a href="Read More" class="primary-button">Read More</a>
+                </div>
+            </div>
             <img src="{{asset('images/banner/banner.jpg')}}" alt="" srcset="">
           </div>
+          
          
         
         </div>
