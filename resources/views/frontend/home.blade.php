@@ -54,7 +54,7 @@
       </div>
 </div>
  <!-- Slider main container -->
-
+<div class="container p-5"></div>
 @endsection
 
 @section('script')

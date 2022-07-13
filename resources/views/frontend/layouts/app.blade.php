@@ -26,11 +26,11 @@
                 <div class="header-menu-items">
 
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">PRODUCTS</a></li>
-                        <li><a href="">GARMENTS</a></li>
-                        <li><a href="">CONTACT US</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Garments</a></li>
+                        <li><a href="">Contact Us</a></li>
                     </ul>
 
 

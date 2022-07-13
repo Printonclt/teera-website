@@ -45,5 +45,6 @@
     "/js/common/bootstrap/bootstrap.js.map": "/js/common/bootstrap/bootstrap.js.map",
     "/js/common/bootstrap/bootstrap.min.js": "/js/common/bootstrap/bootstrap.min.js",
     "/js/common/bootstrap/bootstrap.min.js.map": "/js/common/bootstrap/bootstrap.min.js.map",
-    "/js/main.js": "/js/main.js"
+    "/js/main.js": "/js/main.js",
+    "/css/style.css": "/css/style.css"
 }
