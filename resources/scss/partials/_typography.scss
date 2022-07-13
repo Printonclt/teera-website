@@ -1,0 +1,14 @@
+h2{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+    &.white-color{
+        color: $white-color;
+    }
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+   
+}
