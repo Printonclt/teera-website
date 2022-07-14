@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/style.css": "/css/style.css",
     "/css/common/bootstrap/bootstrap-grid.css": "/css/common/bootstrap/bootstrap-grid.css",
     "/css/common/bootstrap/bootstrap-grid.css.map": "/css/common/bootstrap/bootstrap-grid.css.map",
     "/css/common/bootstrap/bootstrap-grid.min.css": "/css/common/bootstrap/bootstrap-grid.min.css",
@@ -45,6 +46,5 @@
     "/js/common/bootstrap/bootstrap.js.map": "/js/common/bootstrap/bootstrap.js.map",
     "/js/common/bootstrap/bootstrap.min.js": "/js/common/bootstrap/bootstrap.min.js",
     "/js/common/bootstrap/bootstrap.min.js.map": "/js/common/bootstrap/bootstrap.min.js.map",
-    "/js/main.js": "/js/main.js",
-    "/css/style.css": "/css/style.css"
+    "/js/main.js": "/js/main.js"
 }

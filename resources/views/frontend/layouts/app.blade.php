@@ -61,17 +61,18 @@
     <footer class="p-5">
         <div class="container">
             <div class="row">
-                <div class="col-md foot">
+                <div class="col-md-4 foot">
                     <div class="footer-logo">
                         <img src="{{ asset('/images/logo/footerlogo.png') }}" alt="">
                     </div>
 
-                    <p class="p-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    <p class="p-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled</p>
 
                 </div>
-                <div class="col-md quick-links">
+                <div class="col-md-2 quick-links">
                     <h4>Quick Links</h4>
                     <p><a href="">Home</a></p>
                     <p><a href="">About</a></p>
@@ -80,7 +81,7 @@
                     <p><a href="">Contact Us</a></p>
 
                 </div>
-                <div class="col-md">
+                <div class="col-md-3">
                     <h4>Address</h4>
 
                     <p>Lorem Ipsumlorem Ipsum</p>
@@ -88,11 +89,31 @@
                     <p>Lorem Ipsumlorem Ipsum</p>
 
                 </div>
-                <div class="col-md">
-                    <h4>For Enquiry</h4>
-                    <p>Lorem ipsum</p>
-                    <p>teera@gmail.com</p>
-                    <p>+00000 000 00</p>
+                <div class="col-md-3 enquiry">
+
+                    <div>
+
+                        <h4>For Enquiry</h4>
+                        <p> <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp; Lorem ipsum</p>
+                        <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span>&nbsp;&nbsp;teera@gmail.com</p>
+                        <p><span><i class="fa fa-phone" aria-hidden="true"></i></span>&nbsp;&nbsp;+00000 000 00</p>
+
+                    </div>
+                    <div>
+                        <h4>Follow Us On</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-skype"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+
+
+                        </ul>
+
+
+                    </div>
                 </div>
 
             </div>

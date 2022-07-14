@@ -56,16 +56,6 @@ p {
   font-weight: 400;
 }
 
-footer p {
-  color: #fff;
-}
-footer .foot p {
-  font-size: 12px;
-}
-footer h4 {
-  color: #fbe0af;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -184,12 +174,21 @@ header .header-wrapper .hamberger i {
 }
 
 .mobile-menu.active {
+  position: fixed;
+  top: 100px;
+  z-index: 999;
   display: block;
   margin: -5px 0;
 }
 
 footer {
   background-color: #9c8253;
+}
+footer p {
+  color: white;
+}
+footer h4 {
+  color: #fbe0af;
 }
 footer .footer-logo {
   width: 250px;
@@ -207,4 +206,38 @@ footer .quick-links p {
 footer .quick-links p a {
   color: white;
   font-size: 15px;
+}
+footer .enquiry p {
+  display: flex;
+  align-items: center;
+}
+footer .enquiry p span {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .enquiry p span i {
+  color: #9c8253;
+  font-size: 12px;
+}
+footer .enquiry ul {
+  display: flex;
+  gap: 5px;
+}
+footer .enquiry ul li a {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .enquiry ul li a i {
+  color: #9c8253;
+  font-size: 12px;
 }
