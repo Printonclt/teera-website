@@ -196,6 +196,7 @@ footer {
         p {
             display: flex;
             align-items: center;
+
             span {
                 background-color: white;
                 border-radius: 50%;
@@ -215,6 +216,7 @@ footer {
         ul {
             display: flex;
             gap: 5px;
+
             li {
                 a {
                     background-color: white;
@@ -224,6 +226,7 @@ footer {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
                     i {
                         color: $primary-color;
                         font-size: 12px;
@@ -233,4 +236,70 @@ footer {
         }
 
     }
+}
+
+#vision {
+    .vision-img {
+        width: 90%;
+        height: auto;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 95%;
+            height: 90%;
+            background-image: url('/images/logo/logo-element.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            z-index: -9;
+            opacity: .2;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            z-index: 9999;
+        }
+
+    }
+
+    h4 {
+        font-size: 40px;
+        position: relative;
+        margin-bottom: 24px;
+        z-index: 99;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -8px;
+            right: 0;
+            width: 90px;
+            height: 3px;
+            background-color: $primary-color;
+        }
+
+        &::after {
+            content: "VISION";
+            position: absolute;
+            top: -48px;
+            left: -173px;
+            color: rgb(164, 161, 161);
+            -webkit-text-fill-color: white;
+            /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(164, 161, 161);
+            font-size: 90px;
+            z-index: -9;
+            opacity: .4;
+        }
+    }
+
+    p {
+        text-align: justify;
+    }
+
 }
