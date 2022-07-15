@@ -303,3 +303,51 @@ footer {
     }
 
 }
+
+//inner banner style
+.inner-hero{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        object-fit: cover;
+
+    }
+    .inner-hero-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        h2{
+            color: $white-color;
+        }
+    }
+}
+
+.contact-heading{
+    max-width: 700px;
+    margin: 10px auto;
+    margin-top: 40px;
+    &::after {
+        content: "Business Enquiries";
+        position: absolute;
+        top: -40px;
+        left: 10px;
+        color: rgb(164, 161, 161);
+        -webkit-text-fill-color: white;
+        /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(164, 161, 161);
+        font-size: 70px;
+        z-index: -9;
+        opacity: .4;
+    }
+}
+
+.map-container{
+    overflow: hidden;
+    border-radius: 50px;
+}

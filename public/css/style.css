@@ -36,6 +36,41 @@ li {
   border: 1px solid #9c8253;
 }
 
+.has-padding {
+  padding: 20px;
+}
+
+.small-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  border-radius: 50px !important;
+  outline: none !important;
+  padding: 8px 18px !important;
+}
+input:focus {
+  outline: none !important;
+}
+
+textarea {
+  border-radius: 20px !important;
+  padding: 8px 18px !important;
+}
+
+::-moz-placeholder {
+  color: #9c8253 !important;
+  font-size: 12px !important;
+  opacity: 0.7 !important;
+}
+
+::placeholder {
+  color: #9c8253 !important;
+  font-size: 12px !important;
+  opacity: 0.7 !important;
+}
+
 h2 {
   font-size: 46px;
   font-weight: 500;
@@ -54,6 +89,13 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+}
+
+.main-heading {
+  position: relative;
+  text-align: center;
+  margin: 15px 0px;
+  font-size: 33px;
 }
 
 body {
@@ -297,4 +339,51 @@ footer .enquiry ul li a i {
 }
 #vision p {
   text-align: justify;
+}
+
+.inner-hero {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+.inner-hero img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.inner-hero .inner-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner-hero .inner-hero-content h2 {
+  color: #fff;
+}
+
+.contact-heading {
+  max-width: 700px;
+  margin: 10px auto;
+  margin-top: 40px;
+}
+.contact-heading::after {
+  content: "Business Enquiries";
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  color: rgb(164, 161, 161);
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(164, 161, 161);
+  font-size: 70px;
+  z-index: -9;
+  opacity: 0.4;
+}
+
+.map-container {
+  overflow: hidden;
+  border-radius: 50px;
 }

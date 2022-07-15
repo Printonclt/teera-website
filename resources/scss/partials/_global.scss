@@ -32,3 +32,31 @@ li {
         border: 1px solid $primary-color;
     }
 }
+.has-padding{
+    padding: 20px;
+}
+
+.small-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+input{
+    border-radius: 50px!important;
+    outline: none!important;
+    padding: 8px 18px!important;
+  
+    &:focus{
+        outline: none!important;
+    }
+}
+textarea{
+    border-radius: 20px!important;
+    padding: 8px 18px!important;
+}
+
+::placeholder{
+    color: $primary-color!important;
+    font-size: 12px!important;
+    opacity: .7!important;
+}
