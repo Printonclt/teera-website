@@ -6,7 +6,7 @@ h2{
         color: $white-color;
     }
     @include respond-below('md'){
-        font-size: 44px;
+        font-size: 33px;
     }
 }
 p{
@@ -20,5 +20,5 @@ p{
     text-align: center;
     margin: 15px 0px;
     font-size: 33px;
-    
+   
 }

@@ -61,7 +61,7 @@
     <footer class="p-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 foot">
+                <div class="col-md-4 col-sm-12 foot">
                     <div class="footer-logo">
                         <img src="{{ asset('/images/logo/footerlogo.png') }}" alt="">
                     </div>
