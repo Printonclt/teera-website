@@ -37,6 +37,36 @@ li {
   border: 1px solid #9c8253;
 }
 
+.has-padding {
+  padding: 20px;
+}
+
+.small-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+input {
+  border-radius: 50px !important;
+  outline: none !important;
+  padding: 8px 18px !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+textarea {
+  border-radius: 20px !important;
+  padding: 8px 18px !important;
+}
+
+::placeholder {
+  color: #9c8253 !important;
+  font-size: 12px !important;
+  opacity: 0.7 !important;
+}
+
 h2 {
   font-size: 46px;
   font-weight: 500;
@@ -57,6 +87,13 @@ p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+}
+
+.main-heading {
+  position: relative;
+  text-align: center;
+  margin: 15px 0px;
+  font-size: 33px;
 }
 
 body {
@@ -333,5 +370,128 @@ footer .enquiry ul li a i {
 
 #vision p {
   text-align: justify;
+}
+
+.inner-hero {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.inner-hero img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+.inner-hero .inner-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inner-hero .inner-hero-content h2 {
+  color: #fff;
+}
+
+.contact-heading {
+  max-width: 700px;
+  margin: 10px auto;
+  margin-top: 40px;
+}
+
+.contact-heading::after {
+  content: "Business Enquiries";
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  color: #a4a1a1;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a4a1a1;
+  font-size: 70px;
+  z-index: -9;
+  opacity: .4;
+}
+
+.map-container {
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+#whyus {
+  background-color: #efefef;
+  padding: 120px 0 50px 0;
+}
+
+#whyus .content-width {
+  width: 80%;
+  margin: auto;
+}
+
+#whyus h4 {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  z-index: 99;
+}
+
+#whyus h4::after {
+  content: "Why Us";
+  position: absolute;
+  top: -15px;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #a4a1a1;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a4a1a1;
+  font-size: 90px;
+  z-index: -9;
+  opacity: .3;
+}
+
+@media (max-width: 639px) {
+  #whyus h4::after {
+    font-size: 50px;
+  }
+}
+
+#whyus .whyus-icons {
+  margin-top: 60px;
+}
+
+#whyus .whyus-icons .row-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 959px) {
+  #whyus .whyus-icons .row-wrapper {
+    width: 100%;
+  }
+}
+
+#whyus .whyus-icons .row-wrapper .ind-icon {
+  width: 130px;
+  height: 100px;
+  margin: 50px auto;
+}
+
+#whyus .whyus-icons .row-wrapper .ind-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#whyus .whyus-icons .row-wrapper .ind-icon p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

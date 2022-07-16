@@ -67,7 +67,8 @@
                     <h4>Vision</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
                         neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                        corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
+                        corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste
+                        nemo, fugit alias voluptate
                         neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
                         corrupti, nihil veritatis!</p>
                 </div>
@@ -75,6 +76,131 @@
             </div>
 
         </div>
+    </section>
+
+    <section id="whyus">
+
+        <div class="container">
+
+            <div class="whyus-content">
+
+                <h4>Why Us</h4>
+
+                <p class="content-width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit
+                    alias voluptate
+                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
+                    corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo,
+                    fugit alias voluptate
+                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
+                    corrupti, nihil veritatis!</p>
+
+            </div>
+
+            <div class="whyus-icons">
+
+                <div class="row-wrapper">
+
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6">
+
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/increadient.png') }}" alt="">
+                                <p>made With natural ingredients</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/blodgredable.png') }}" alt="">
+                                <p>blodgredable</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/sustainable.png') }}" alt="">
+                                <p>sustainable</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/gluten-free.png') }}" alt="">
+                                <p>gluten-free</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/vegan.png') }}" alt="">
+                                <p>vegan</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/zerowaste.png') }}" alt="">
+                                <p>zero waste</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/eco-friendly.png') }}" alt="">
+                                <p>eco-friendly</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/decomposes.png') }}" alt="">
+                                <p>decomposes within 6-90 days</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/cruelty-free.png') }}" alt="">
+                                <p>cruelty-free</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/notaste.png') }}" alt="">
+                                <p>no taste or smell that onterferes with the drink</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/bleed.png') }}" alt="">
+                                <p>does not bleed colour in the drink</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="ind-icon">
+                                <img src="{{ asset('/images/icons/zoggy.png') }}" alt="">
+                                <p>does not get soggy in the drink</p>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
     </section>
 @endsection
 
