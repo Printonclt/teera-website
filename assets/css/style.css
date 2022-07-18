@@ -79,7 +79,7 @@ h2.white-color {
 
 @media (max-width: 959px) {
   h2 {
-    font-size: 44px;
+    font-size: 33px;
   }
 }
 
@@ -248,10 +248,12 @@ footer p {
 
 footer h4 {
   color: #fbe0af;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 footer .footer-logo {
-  width: 250px;
+  width: 200px;
   height: auto;
 }
 
@@ -262,12 +264,12 @@ footer .footer-logo img {
 }
 
 footer .quick-links p {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 footer .quick-links p a {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 footer .enquiry p {
@@ -278,8 +280,8 @@ footer .enquiry p {
 footer .enquiry p span {
   background-color: white;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,14 +294,14 @@ footer .enquiry p span i {
 
 footer .enquiry ul {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 footer .enquiry ul li a {
   background-color: white;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -406,15 +408,23 @@ footer .enquiry ul li a i {
   content: "Business Enquiries";
   position: absolute;
   top: -40px;
-  left: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   color: #a4a1a1;
   -webkit-text-fill-color: white;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #a4a1a1;
-  font-size: 70px;
+  font-size: 40px;
   z-index: -9;
   opacity: .4;
+}
+
+@media (max-width: 959px) {
+  .contact-heading::after {
+    font-size: 18px;
+    top: -30px;
+  }
 }
 
 .map-container {
@@ -493,5 +503,163 @@ footer .enquiry ul li a i {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
+}
+
+#about {
+  padding: 120px 0 50px 0;
+}
+
+#about .about-content h4 {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  z-index: 99;
+}
+
+#about .about-content h4::after {
+  content: "About";
+  position: absolute;
+  top: -15px;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #a4a1a1;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a4a1a1;
+  font-size: 90px;
+  z-index: -9;
+  opacity: .3;
+}
+
+@media (max-width: 639px) {
+  #about .about-content h4::after {
+    font-size: 50px;
+  }
+}
+
+#about .about-content h4 p {
+  text-align: justify;
+}
+
+#about-vision .vision-img {
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+
+#about-vision .vision-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/logo/logo-element.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -9;
+  opacity: .2;
+}
+
+#about-vision .vision-img img {
+  width: 369px;
+  height: 407px;
+  margin: auto;
+  display: flex;
+  object-fit: contain;
+  z-index: 9999;
+}
+
+#about-vision h4 {
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  z-index: 99;
+}
+
+#about-vision h4::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  width: 90px;
+  height: 3px;
+  background-color: #9c8253;
+}
+
+#about-vision h4::after {
+  content: "VISION";
+  position: absolute;
+  top: -48px;
+  left: -173px;
+  color: #a4a1a1;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a4a1a1;
+  font-size: 90px;
+  z-index: -9;
+  opacity: .4;
+}
+
+#about-mission .vision-img {
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+
+#about-mission .vision-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/logo/logo-element.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -9;
+  opacity: .2;
+}
+
+#about-mission .vision-img img {
+  width: 369px;
+  height: 407px;
+  margin: auto;
+  display: flex;
+  object-fit: contain;
+  z-index: 9999;
+}
+
+#about-mission h4 {
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  z-index: 99;
+}
+
+#about-mission h4::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 90px;
+  height: 3px;
+  background-color: #9c8253;
+}
+
+#about-mission h4::after {
+  content: "MISSION";
+  position: absolute;
+  top: -59px;
+  left: -5px;
+  color: #a4a1a1;
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a4a1a1;
+  font-size: 90px;
+  z-index: -9;
+  opacity: .4;
 }
 /*# sourceMappingURL=style.css.map */

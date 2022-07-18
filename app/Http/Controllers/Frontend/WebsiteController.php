@@ -14,4 +14,8 @@ class WebsiteController extends Controller
     public function contact(){
         return view('frontend.contact');
     }
+
+    public function about(){
+        return view('frontend.about');
+    }
 }
