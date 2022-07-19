@@ -37,6 +37,8 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex flex-column align-items-end">
+
+                <img src="{{ asset('/images/icons/vision.png') }}" alt="" srcset="" class="vision-svg">
                 <h4>Vision</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
                     neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
@@ -56,6 +58,7 @@
         <div class="row align-items-center justify-content-between">
 
             <div class="col-md-6">
+                <img src="{{ asset('/images/icons/mission.png') }}" alt="" srcset="" class="mission-svg">
                 <h4>MISSION</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
                     neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
@@ -75,5 +78,53 @@
         </div>
 
     </div>
+</section>
+
+<section id="icons">
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+        <div class="col">
+            <img src="{{ asset('/images/icons/1.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/2.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/3.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/4.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/5.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/6.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/7.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/8.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/9.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/10.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/11.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/12.png') }}" alt="">
+        </div>
+        <div class="col">
+            <img src="{{ asset('/images/icons/13.png') }}" alt="">
+        </div>
+    
+    </div>
+</div>
+    
 </section>
 @endsection
