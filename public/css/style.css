@@ -681,3 +681,85 @@ footer .enquiry ul li a i {
      object-fit: contain;
   margin-bottom: 30px;
 }
+
+#product {
+  padding: 120px 0 50px 0;
+}
+#product .product-content h4 {
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  z-index: 99;
+}
+#product .product-content h4::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 90px;
+  height: 3px;
+  background-color: #9c8253;
+}
+#product .product-content h4::after {
+  content: "Plates";
+  position: absolute;
+  top: -59px;
+  left: -5px;
+  color: rgb(164, 161, 161);
+  -webkit-text-fill-color: white;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(164, 161, 161);
+  font-size: 90px;
+  z-index: -9;
+  opacity: 0.4;
+}
+@media (max-width: 959px) {
+  #product .product-content h4::after {
+    font-size: 70px;
+  }
+}
+@media (max-width: 374px) {
+  #product .product-content h4::after {
+    font-size: 50px;
+  }
+}
+#product .plate-img {
+  position: relative;
+  max-width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  padding: 10px;
+  border: 1px solid #9c8253;
+}
+#product .plate-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#product .plate-img .plate-content {
+  position: absolute;
+  background-color: #9c8253;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  top: 100%;
+  transition: all ease-in-out 0.3s;
+}
+#product .plate-img .plate-content h6 {
+  color: white;
+  font-size: 25px;
+}
+#product .plate-img .plate-content p {
+  color: white;
+  font-size: 16px;
+}
+#product .plate-img:hover .plate-content {
+  top: 0;
+}
