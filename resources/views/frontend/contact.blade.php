@@ -15,40 +15,40 @@
             <h2 class="main-heading mt-5 contact-heading">
                 Business Enquiries
             </h2>
-            <form>
+            <form method="POST" id="submit-form" action="">
             <div class="row mt-3 small-container">
               
                 <div class="col-md-6 mt-2">
                     <div class="form-group">
                         <label for=""></label>
-                        <input type="text" class="form-control" name="name" placeholder="First Name *">
+                        <input type="text" class="form-control" name="name" placeholder="First Name *" name="first_name">
                     </div>
                 </div>
                 <div class="col-md-6 mt-2   ">
                     <div class="form-group">
                         <label for=""></label>
-                        <input type="text" class="form-control" name="lname" placeholder="Last Name *">
+                        <input type="text" class="form-control" name="lname" placeholder="Last Name *" name="last_name">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for=""></label>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="phone" placeholder="Phone Number *">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone Number *" name="mobile">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <label for=""></label>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email *">
+                        <input type="email" class="form-control" name="email" placeholder="Email *" name="email">
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="How Can we help"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="How Can we help" name="message"></textarea>
                       </div>
                 </div>
-                <button class="btn primary-button mt-3">Submit</button>
+                <button class="btn primary-button mt-3 submit-button" type="submit">Submit</button>
                
             </div>
         </form>
@@ -61,5 +61,33 @@
     </div>
     </div>
  </section>
+@endsection
+
+@section('script')
+
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbz3rvoMU_0GQcPqBoMcFiLlelbqHL1i9JKilyZVzAncRvzM2rShOP7oX6mcEnuUvcx3Zw/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            beforeSend:function(){
+                    $('.submit-button').attr('disabled',true);
+                    $('.submit-button').html('Loading...');
+
+            },
+            success:function (response){
+                
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
 @endsection
 
