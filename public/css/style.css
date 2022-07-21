@@ -343,6 +343,10 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
+}
+#vision h4:hover::after {
+  top: -65px;
 }
 #vision p {
   text-align: justify;
@@ -437,6 +441,9 @@ footer .enquiry ul li a i {
     font-size: 50px;
   }
 }
+#whyus h4:hover::after {
+  top: -32px;
+}
 #whyus .whyus-icons {
   margin-top: 60px;
 }
@@ -495,6 +502,9 @@ footer .enquiry ul li a i {
   #about .about-content h4::after {
     font-size: 50px;
   }
+}
+#about .about-content h4:hover::after {
+  top: -32px;
 }
 #about .about-content h4 p {
   text-align: justify;
@@ -582,6 +592,9 @@ footer .enquiry ul li a i {
   #about-vision h4::after {
     font-size: 50px;
   }
+}
+#about-vision h4:hover::after {
+  top: -67px;
 }
 
 #about-mission .mission-svg {
@@ -672,6 +685,9 @@ footer .enquiry ul li a i {
   #about-mission h4::after {
     font-size: 50px;
   }
+}
+#about-mission h4:hover::after {
+  top: -76px;
 }
 
 #icons img {

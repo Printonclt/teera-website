@@ -302,6 +302,13 @@ footer {
             font-size: 90px;
             z-index: -9;
             opacity: .4;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            &::after {
+               top: -65px;
+            }
         }
     }
 
@@ -404,6 +411,11 @@ footer {
                 font-size: 50px;
             }
         }
+        &:hover {
+            &::after {
+               top: -32px;
+            }
+        }
     }
 
     .whyus-icons {
@@ -467,6 +479,12 @@ footer {
 
                 @include respond-below(sm) {
                     font-size: 50px;
+                }
+            }
+
+            &:hover {
+                &::after {
+                   top: -32px;
                 }
             }
 
@@ -563,6 +581,12 @@ footer {
                 font-size: 50px;
             }
         }
+
+        &:hover {
+            &::after {
+               top: -67px;
+            }
+        }
     }
 }
 
@@ -654,6 +678,11 @@ footer {
 
             @include respond-below(xs) {
                 font-size: 50px;
+            }
+        }
+        &:hover {
+            &::after {
+               top: -76px;
             }
         }
     }
