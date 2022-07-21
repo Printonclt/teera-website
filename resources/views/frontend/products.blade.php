@@ -15,7 +15,7 @@
             </div>
 
             <div class="row align-items-center mt-5">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
 
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
                         <div class="plate-content">
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
                         <div class="plate-content">
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
                         <div class="plate-content">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
                         <div class="plate-content">
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="plate-img">
                         <img src="{{ asset('/images/banner/plate.png') }}" alt="">
                         <div class="plate-content">
