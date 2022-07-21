@@ -198,7 +198,7 @@ footer {
         p {
             display: flex;
             align-items: center;
-          
+
 
             span {
                 background-color: white;
@@ -219,6 +219,7 @@ footer {
         ul {
             display: flex;
             gap: 10px;
+
             @include respond-below(xs) {
                 flex-wrap: wrap;
             }
@@ -355,7 +356,8 @@ footer {
         font-size: 40px;
         z-index: -9;
         opacity: .4;
-        @include respond-below('md'){
+
+        @include respond-below('md') {
             font-size: 18px;
             top: -30px;
         }
@@ -397,6 +399,7 @@ footer {
             font-size: 90px;
             z-index: -9;
             opacity: .3;
+
             @include respond-below(sm) {
                 font-size: 50px;
             }
@@ -409,8 +412,9 @@ footer {
         .row-wrapper {
             width: 80%;
             margin: 0 auto;
+
             @include respond-below(md) {
-               width: 100%;
+                width: 100%;
             }
 
             .ind-icon {
@@ -423,6 +427,7 @@ footer {
                     height: 100%;
                     object-fit: contain;
                 }
+
                 p {
                     font-size: 14px;
                     line-height: 20px;
@@ -436,6 +441,7 @@ footer {
 
 #about {
     padding: 120px 0 50px 0;
+
     .about-content {
         h4 {
             text-align: center;
@@ -443,7 +449,7 @@ footer {
             position: relative;
             margin-bottom: 24px;
             z-index: 99;
-    
+
             &::after {
                 content: "About";
                 position: absolute;
@@ -458,10 +464,12 @@ footer {
                 font-size: 90px;
                 z-index: -9;
                 opacity: .3;
+
                 @include respond-below(sm) {
                     font-size: 50px;
                 }
             }
+
             p {
                 text-align: justify;
             }
@@ -476,6 +484,7 @@ footer {
         z-index: 999;
         margin-bottom: 36px;
     }
+
     .vision-img {
         width: 100%;
         height: auto;
@@ -501,18 +510,21 @@ footer {
             display: flex;
             object-fit: contain;
             z-index: 9999;
+
             @include respond-below(md) {
                 width: 247px;
                 height: 368px;
             }
+
             @include respond-below(xs) {
                 width: 159px;
                 height: 200px;
             }
-           
+
         }
 
     }
+
     h4 {
         font-size: 40px;
         position: relative;
@@ -542,9 +554,11 @@ footer {
             font-size: 90px;
             z-index: -9;
             opacity: .4;
+
             @include respond-below(md) {
                 font-size: 70px;
             }
+
             @include respond-below(xs) {
                 font-size: 50px;
             }
@@ -559,11 +573,13 @@ footer {
         z-index: 999;
         margin-bottom: 36px;
     }
+
     .vision-img {
         width: 100%;
         height: auto;
         margin-left: 50px;
         position: relative;
+
         @include respond-below(md) {
             margin-left: 0;
         }
@@ -588,10 +604,12 @@ footer {
             display: flex;
             object-fit: contain;
             z-index: 9999;
+
             @include respond-below(md) {
                 width: 247px;
                 height: 368px;
             }
+
             @include respond-below(xs) {
                 width: 159px;
                 height: 200px;
@@ -599,6 +617,7 @@ footer {
         }
 
     }
+
     h4 {
         font-size: 40px;
         position: relative;
@@ -632,6 +651,7 @@ footer {
             @include respond-below(md) {
                 font-size: 70px;
             }
+
             @include respond-below(xs) {
                 font-size: 50px;
             }
@@ -650,13 +670,14 @@ footer {
 
 #product {
     padding: 120px 0 50px 0;
+
     .product-content {
         h4 {
             font-size: 40px;
             position: relative;
             margin-bottom: 24px;
             z-index: 99;
-    
+
             &::before {
                 content: "";
                 position: absolute;
@@ -666,9 +687,9 @@ footer {
                 height: 3px;
                 background-color: $primary-color;
             }
-    
+
             &::after {
-                content: "Plates";
+                content: "Rice Straw";
                 position: absolute;
                 top: -59px;
                 left: -5px;
@@ -680,10 +701,11 @@ footer {
                 font-size: 90px;
                 z-index: -9;
                 opacity: .4;
-    
+
                 @include respond-below(md) {
                     font-size: 70px;
                 }
+
                 @include respond-below(xs) {
                     font-size: 50px;
                 }
@@ -693,43 +715,70 @@ footer {
 
     .plate-img {
         position: relative;
-        max-width: 300px;
-        height: 300px;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
         overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 30px 0;
-        padding: 10px;
-        border: 1px solid $primary-color;
+        -webkit-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+        @include respond-below(md) {
+            height: 260px;
+        }
+        @include respond-below(sm) {
+            height: auto;
+        }
         img {
             width: 100%;
-            height: auto;
-            object-fit: contain;
+            height: 100%;
+            object-fit: cover;
         }
+
         .plate-content {
             position: absolute;
-            background-color: $primary-color;
+            background-color: $white-color;
+            overflow: none;
             width: 100%;
             height: 100%;
             padding: 10px;
-            top: 100%;
+            top: 89%;
             transition: all ease-in-out .3s;
-            h6 {
-                color: white;
-                font-size: 25px;
+            @include respond-below(md) {
+               top: 86%;
             }
+            @include respond-below(sm) {
+                top: 89%;
+            }
+            h6 {
+                color: $secondary-color;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            span {
+                font-size: 14px;
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+            }
+
             p {
-                color: white;
-                font-size: 16px;
+                color: $secondary-color;
+                font-size: 14px;
             }
         }
+
         &:hover {
             .plate-content {
                 top: 0;
+                overflow: scroll;
             }
         }
-      
+
     }
 }
