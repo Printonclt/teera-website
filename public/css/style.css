@@ -825,10 +825,15 @@ footer .enquiry ul li a i {
   font-weight: bold;
   padding: 0;
   margin: 0;
+  color: #193d36;
+}
+#product .plate-img .plate-content span.colored {
+  color: #9c8253;
 }
 #product .plate-img .plate-content p {
-  color: #193d36;
+  color: #575757;
   font-size: 14px;
+  line-height: 20px;
 }
 #product .plate-img:hover .plate-content {
   top: 0;

@@ -13,13 +13,10 @@
 
             <h4 data-aos="fade-up">About</h4>
 
-            <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit
-                alias voluptate
-                neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo,
-                fugit alias voluptate
-                neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                corrupti, nihil veritatis!</p>
+            <p data-aos="fade-up">Teera is an off-spring of super galant general trading LLC. Started as a trading company in the year 2003 and serves the community of UAE ever since, Over time we transformed ourselves in line with market trends and showed great enthusiasm and eagerness to introduce quality products to the Arab world. <br>
+
+                
+         Teera came into existence intending to provide a replacement for plastic and provide eco-friendly alternatives. Our mission is to provide products that are safe for the environment and helps in creating a better tomorrow. Teera makes a range of straws, spoons, forks, knives and utensils made from natural wheat and rice bran.</p>
 
         </div>
 
@@ -40,12 +37,7 @@
 
                 <img src="{{ asset('/images/icons/vision.png') }}" alt="" srcset="" class="vision-svg">
                 <h4>Vision</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
-                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                    corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste
-                    nemo, fugit alias voluptate
-                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                    corrupti, nihil veritatis!</p>
+                <p> Teera have been designed with one goal – reducing global plastic waste. It can be used across a broad spectrum of industries and venues, including F&B outlets, the hospitality industry such as at events, sporting venues, coffee shop, and even your home! Wherever you have food, your decision to use teera products will be a step forward in our effort to save Mother Nature! Together we can make that difference. Make the switch without affecting your experience!</p>
             </div>
 
         </div>
@@ -60,12 +52,7 @@
             <div class="col-md-6" data-aos="fade-left">
                 <img src="{{ asset('/images/icons/mission.png') }}" alt="" srcset="" class="mission-svg">
                 <h4>MISSION</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit alias voluptate
-                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                    corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste
-                    nemo, fugit alias voluptate
-                    neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
-                    corrupti, nihil veritatis!</p>
+                <p>Teera came into existence intending to provide a replacement for plastic and provide eco-friendly alternatives. Our mission is to provide products that are safe for the environment and helps in creating a better tomorrow. Teera makes a range of straws, spoons, forks, knives and utensils made from natural wheat and rice bran.</p>
             </div>
 
             <div class="col-md-6">

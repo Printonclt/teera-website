@@ -21,8 +21,8 @@
 
                         <div class="plate-content">
                             <h6>Rice Straw 6.5mm x 200mm</h6>
-                            <span>Now @ ₹2/straw</span>
-                            <span>Suitable For - Soft Drinks & Non Pulpy Juices</span>
+                            <span class="colored">Now @ ₹2/straw</span>
+                            <span class="colored">Suitable For - Soft Drinks & Non Pulpy Juices</span>
                             <p>Smaart Rice Straws are a perfect alternative to plastic, paper, bamboo and metal straws. Our
                                 straws are eco-friendly, sustainable, biodegradable. Let's pledge to reduce plastic waste
                                 and join hands together to save our mother Earth.</p>
@@ -43,8 +43,8 @@
                         <img src="{{ asset('/images/products/Rice-Straw-8mm-x-200mm.jpg') }}" alt="">
                         <div class="plate-content">
                             <h6>Rice Straw 8mm x 200mm</h6>
-                            <span>Now @ ₹2/straw</span>
-                            <span>Suitable For – Soft Drinks, Juices, Cold Coffee, Cocktails and Mocktails.</span>
+                            <span class="colored">Now @ ₹2/straw</span>
+                            <span class="colored">Suitable For – Soft Drinks, Juices, Cold Coffee, Cocktails and Mocktails.</span>
                             <p>Smaart Rice Straws are a perfect alternative to plastic, paper, bamboo and metal straws. Our
                                 straws are eco-friendly, sustainable, biodegradable. Let’s pledge to reduce plastic waste
                                 and join hands together to save our mother Earth</p>
@@ -66,8 +66,8 @@
                         <img src="{{ asset('/images/products/Rice-Straw-10mm-x-200mm.jpg') }}" alt="">
                         <div class="plate-content">
                             <h6>Rice Straw 10mm x 200mm</h6>
-                            <span>Now @ ₹2.30/straw</span>
-                            <span>Suitable For - Milk Shakes and Thick Shakes.</span>
+                            <span class="colored">Now @ ₹2.30/straw</span>
+                            <span class="colored">Suitable For - Milk Shakes and Thick Shakes.</span>
                             <p>Smaart Rice Straws are a perfect alternative to plastic, paper, bamboo and metal straws. Our
                                 straws are eco-friendly, sustainable, biodegradable. Let’s pledge to reduce plastic waste
                                 and join hands together to save our mother Earth.</p>
@@ -88,8 +88,8 @@
                         <img src="{{ asset('/images/products/Rice-Straw-13mm-x-200mm.jpg') }}" alt="">
                         <div class="plate-content">
                             <h6>Rice Straw 13mm x 200mm</h6>
-                            <span>Now @ ₹3/straw</span>
-                            <span>Suitable For – Bubble Teas and Falooda.</span>
+                            <span class="colored">Now @ ₹3/straw</span>
+                            <span class="colored">Suitable For – Bubble Teas and Falooda.</span>
                             <p>Smaart Rice Straws are a perfect alternative to plastic, paper, bamboo and metal straws. Our
                                 straws are eco-friendly, sustainable, biodegradable. Let’s pledge to reduce plastic waste
                                 and join hands together to save our mother Earth.</p>

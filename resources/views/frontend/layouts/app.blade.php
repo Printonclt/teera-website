@@ -67,10 +67,7 @@
                         <img src="{{ asset('/images/logo/footerlogo.png') }}" alt="">
                     </div>
 
-                    <p class="p-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled</p>
+                    {{-- <p class="p-2">Teera is an off-spring of super galant general trading LLC. Started as a trading company in the year 2003 and serves the community of UAE ever since, Over time we transformed ourselves in line with market trends and showed great enthusiasm and eagerness to introduce quality products to the Arab world. </p> --}}
 
                 </div>
                 <div class="col-md-2 quick-links">

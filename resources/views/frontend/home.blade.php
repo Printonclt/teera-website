@@ -10,11 +10,10 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="hero-content" >
-                        <h2 class="hero-heading white-color">Lorem Ipsum Dolersit Amet</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's</p>
+                        <h2 class="hero-heading white-color">We think for tomorrow,<br><span style="color: #9c8253"> Not today</span></h2>
+                        <p>Teera is an off-spring of super galant general trading LLC. Started as a trading company in the year 2003 and serves the community of UAE</p>
                         <div class="btn-wrapper">
-                            <a href="Read More" class="primary-button">Read More</a>
+                            <a href="/about" class="primary-button">Read More</a>
                         </div>
                     </div>
                     <img src="{{ asset('images/banner/banner.jpg') }}" alt="" srcset="">
