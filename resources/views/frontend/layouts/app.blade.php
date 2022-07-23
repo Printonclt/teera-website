@@ -27,11 +27,11 @@
                 <div class="header-menu-items">
 
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Garments</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/products">Products</a></li>
+                        {{-- <li><a href="">Garments</a></li> --}}
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
 
 
@@ -51,7 +51,7 @@
             <li class="m-3"><a href="">HOME</a></li>
             <li class="m-3"><a href="">ABOUT</a></li>
             <li class="m-3"><a href="">PRODUCTS</a></li>
-            <li class="m-3"><a href="">GARMENTS</a></li>
+            {{-- <li class="m-3"><a href="">GARMENTS</a></li> --}}
             <li class="m-3"><a href="">CONTACT US</a></li>
         </ul>
     </div>
@@ -62,7 +62,7 @@
     <footer class="p-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 foot">
+                <div class="col-md-3 col-sm-12 foot">
                     <div class="footer-logo">
                         <img src="{{ asset('/images/logo/footerlogo.png') }}" alt="">
                     </div>
@@ -75,16 +75,16 @@
                     <p><a href="">Home</a></p>
                     <p><a href="">About</a></p>
                     <p><a href="">Products</a></p>
-                    <p><a href="">Garments</a></p>
+                    {{-- <p><a href="">Garments</a></p> --}}
                     <p><a href="">Contact Us</a></p>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4>Address</h4>
 
-                    <p>Lorem Ipsumlorem Ipsum</p>
-                    <p>Lorem Ipsumlorem Ipsum</p>
-                    <p>Lorem Ipsumlorem Ipsum</p>
+                    <p>Super Galant General Trading LLC</p>
+                    <p>M- Floor, Beauty Tex building, Near Sabkha Bus Station, Deira, Dubai - UAE<br>
+                    PO Box : 42750, </p>
 
                 </div>
                 <div class="col-md-3 enquiry">
@@ -92,16 +92,16 @@
                     <div>
 
                         <h4>For Enquiry</h4>
-                        <p> <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp; Lorem ipsum</p>
+                        {{-- <p> <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp; Lorem ipsum</p> --}}
                         <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span>&nbsp;&nbsp;teera@gmail.com</p>
-                        <p><span><i class="fa fa-phone" aria-hidden="true"></i></span>&nbsp;&nbsp;+00000 000 00</p>
+                        <p><span><i class="fa fa-phone" aria-hidden="true"></i></span>&nbsp;&nbsp;+971 558818237,<br> &nbsp;&nbsp;+971 55 265 5788</p>
 
                     </div>
                     <div>
                         <h4>Follow Us On</h4>
                         <ul>
-                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://instagram.com/teeraglobal?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/teeraglobal/"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-skype"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -116,6 +116,27 @@
 
             </div>
         </div>
+
+
+        <script  type="text/javascript">
+            var config = {
+              phone :" 971552655788",
+              call :"Message Us",
+              position :"ww-right",
+              size : "ww-normal",
+              text : "",
+              type: "ww-standard",
+              brand: "Teera",
+              subtitle: "",
+              welcome: "Hi,ThereHow can i help you"
+            };
+            var proto = 'https:',host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+              var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
+          
+              s.onload = function () { tmWidgetInit(config) };
+              var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+          </script>0
+
     </footer>
 
     <script src="{{ asset('css/common/bootstrap/bootstrap.min.css') }}"></script>

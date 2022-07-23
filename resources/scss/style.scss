@@ -1,3 +1,4 @@
+//@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 @import './partials/variables';
@@ -8,7 +9,8 @@
 
 //home banner slider
 body {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -180,7 +182,7 @@ header {
 
 
 footer {
-    background-color: $primary-color;
+    background-color: $secondary-color;
 
     p {
         color: white;
@@ -188,8 +190,8 @@ footer {
 
     h4 {
         color: #fbe0af;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 14px;
     }
 
     .footer-logo {
@@ -231,7 +233,7 @@ footer {
                 justify-content: center;
 
                 i {
-                    color: $primary-color;
+                    color: $secondary-color;
                     font-size: 12px;
                 }
             }
@@ -256,7 +258,7 @@ footer {
                     justify-content: center;
 
                     i {
-                        color: $primary-color;
+                        color: $secondary-color;
                         font-size: 12px;
                     }
                 }
@@ -290,6 +292,10 @@ footer {
             height: 100%;
             object-fit: contain;
             z-index: 9999;
+            // transition: all .3s ease;
+            // &:hover{
+            //     transform: scale('1.1');
+            // }
         }
 
     }

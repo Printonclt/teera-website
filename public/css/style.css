@@ -86,9 +86,10 @@ h2.white-color {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .main-heading {
@@ -99,7 +100,7 @@ p {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -245,15 +246,15 @@ header .header-wrapper .hamberger i {
 }
 
 footer {
-  background-color: #9c8253;
+  background-color: #193d36;
 }
 footer p {
   color: white;
 }
 footer h4 {
   color: #fbe0af;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 14px;
 }
 footer .footer-logo {
   width: 200px;
@@ -286,7 +287,7 @@ footer .enquiry p span {
   justify-content: center;
 }
 footer .enquiry p span i {
-  color: #9c8253;
+  color: #193d36;
   font-size: 12px;
 }
 footer .enquiry ul {
@@ -308,7 +309,7 @@ footer .enquiry ul li a {
   justify-content: center;
 }
 footer .enquiry ul li a i {
-  color: #9c8253;
+  color: #193d36;
   font-size: 12px;
 }
 

@@ -57,7 +57,7 @@
  <section class="has-padding mt-5">
     <div class="small-container">
         <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125199.87432665714!2d75.85136639999999!3d11.2984064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65ea4832526ad%3A0xc5e33869a5762c2b!2sIQRAA%20International%20Hospital%20%26%20Research%20Centre!5e0!3m2!1sen!2sin!4v1657901796957!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0035505901883!2d55.302527!3d25.270465999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f436110002ee5%3A0x5c1f2f90a553cb3f!2sSuper%20Galant%20General%20Trading%20LLC!5e0!3m2!1sen!2sin!4v1658584965482!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </div>
  </section>

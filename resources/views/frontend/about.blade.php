@@ -30,7 +30,7 @@
 
             <div class="col-md-6">
                 <div class="vision-img" data-aos="fade-right">
-                    <img src="{{ asset('/images/banner/plate.png') }}" alt="" srcset="">
+                    <img src="{{ asset('/images/banner/vision.png') }}" alt="" srcset="">
                 </div>
             </div>
             <div class="col-md-6 d-flex flex-column align-items-end" data-aos="fade-left">
@@ -50,14 +50,14 @@
         <div class="row align-items-center justify-content-between">
 
             <div class="col-md-6" data-aos="fade-left">
-                <img src="{{ asset('/images/icons/mission.png') }}" alt="" srcset="" class="mission-svg">
+                <img src="{{ asset('/images/icons/vision.png') }}" alt="" srcset="" class="mission-svg">
                 <h4>MISSION</h4>
                 <p>Teera came into existence intending to provide a replacement for plastic and provide eco-friendly alternatives. Our mission is to provide products that are safe for the environment and helps in creating a better tomorrow. Teera makes a range of straws, spoons, forks, knives and utensils made from natural wheat and rice bran.</p>
             </div>
 
             <div class="col-md-6">
                 <div class="vision-img" data-aos="fade-right">
-                    <img src="{{ asset('/images/banner/plate.png') }}" alt="" srcset="">
+                    <img src="{{ asset('/images/banner/mision.png') }}" alt="" srcset="">
                 </div>
             </div>
            
