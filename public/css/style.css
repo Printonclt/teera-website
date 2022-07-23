@@ -102,6 +102,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9c8253;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #193d36;
+}
+
 .hero {
   width: 100%;
   height: 80vh;
@@ -393,12 +414,16 @@ footer .enquiry ul li a i {
   font-size: 40px;
   z-index: -9;
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 959px) {
   .contact-heading::after {
     font-size: 18px;
     top: -30px;
   }
+}
+.contact-heading:hover::after {
+  top: -57px;
 }
 
 .map-container {
@@ -435,6 +460,7 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.3;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 639px) {
   #whyus h4::after {
@@ -497,6 +523,7 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.3;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 639px) {
   #about .about-content h4::after {
@@ -582,6 +609,7 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 959px) {
   #about-vision h4::after {
@@ -675,6 +703,7 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 959px) {
   #about-mission h4::after {
@@ -729,6 +758,7 @@ footer .enquiry ul li a i {
   font-size: 90px;
   z-index: -9;
   opacity: 0.4;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 959px) {
   #product .product-content h4::after {
@@ -739,6 +769,9 @@ footer .enquiry ul li a i {
   #product .product-content h4::after {
     font-size: 50px;
   }
+}
+#product .product-content h4:hover::after {
+  top: -76px;
 }
 #product .plate-img {
   position: relative;
@@ -773,22 +806,14 @@ footer .enquiry ul li a i {
 #product .plate-img .plate-content {
   position: absolute;
   background-color: #fff;
-  overflow: none;
   width: 100%;
   height: 100%;
   padding: 10px;
-  top: 89%;
-  transition: all ease-in-out 0.3s;
-}
-@media (max-width: 959px) {
-  #product .plate-img .plate-content {
-    top: 86%;
-  }
-}
-@media (max-width: 639px) {
-  #product .plate-img .plate-content {
-    top: 89%;
-  }
+  top: 100%;
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: red;
 }
 #product .plate-img .plate-content h6 {
   color: #193d36;
@@ -807,5 +832,4 @@ footer .enquiry ul li a i {
 }
 #product .plate-img:hover .plate-content {
   top: 0;
-  overflow: scroll;
 }
