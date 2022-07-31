@@ -47,12 +47,11 @@
     </header>
 
     <div class="mobile-menu">
-        <ul class="d-flex flex-column align-items-center pt-3">
-            <li class="m-3"><a href="">HOME</a></li>
-            <li class="m-3"><a href="">ABOUT</a></li>
-            <li class="m-3"><a href="">PRODUCTS</a></li>
-            {{-- <li class="m-3"><a href="">GARMENTS</a></li> --}}
-            <li class="m-3"><a href="">CONTACT US</a></li>
+        <ul >
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/products">PRODUCTS</a></li>
+            <li><a href="/contact">CONTACT US</a></li>
         </ul>
     </div>
 
@@ -62,7 +61,7 @@
     <footer class="p-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-12 foot">
+                <div class="col-md-3 col-sm-12 foot mb-5">
                     <div class="footer-logo">
                         <img src="{{ asset('/images/logo/footerlogo.png') }}" alt="">
                     </div>
@@ -70,7 +69,7 @@
                     {{-- <p class="p-2">Teera is an off-spring of super galant general trading LLC. Started as a trading company in the year 2003 and serves the community of UAE ever since, Over time we transformed ourselves in line with market trends and showed great enthusiasm and eagerness to introduce quality products to the Arab world. </p> --}}
 
                 </div>
-                <div class="col-md-2 quick-links">
+                <div class="col-md-2 quick-links mb-5">
                     <h4>Quick Links</h4>
                     <p><a href="">Home</a></p>
                     <p><a href="">About</a></p>
@@ -79,7 +78,7 @@
                     <p><a href="">Contact Us</a></p>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-5">
                     <h4>Address</h4>
 
                     <p>Super Galant General Trading LLC</p>
@@ -89,7 +88,7 @@
                 </div>
                 <div class="col-md-3 enquiry">
 
-                    <div>
+                    <div class="mb-5">
 
                         <h4>For Enquiry</h4>
                         {{-- <p> <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>&nbsp;&nbsp; Lorem ipsum</p> --}}

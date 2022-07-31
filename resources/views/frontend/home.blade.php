@@ -9,9 +9,11 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <div class="hero-content" >
-                        <h2 class="hero-heading white-color">We think for tomorrow,<br><span style="color: #9c8253"> Not today</span></h2>
-                        <p>Teera is an off-spring of super galant general trading LLC. Started as a trading company in the year 2003 and serves the community of UAE</p>
+                    <div class="hero-content">
+                        <h2 class="hero-heading white-color">We think for tomorrow,<br><span style="color: #9c8253"> Not
+                                today</span></h2>
+                        <p>Teera is an off-spring of super galant general trading LLC. Started as a trading company in the
+                            year 2003 and serves the community of UAE</p>
                         <div class="btn-wrapper">
                             <a href="/about" class="primary-button">Read More</a>
                         </div>
@@ -55,7 +57,7 @@
     <section id="vision">
         <div class="container p-5">
 
-            <div class="row align-items-center" >
+            <div class="row align-items-center">
 
                 <div class="col-md-6">
                     <div class="vision-img" data-aos="fade-right">
@@ -85,7 +87,8 @@
 
                 <h4 data-aos="fade-up">Why Us</h4>
 
-                <p class="content-width" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo, fugit
+                <p class="content-width" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus iste nemo, fugit
                     alias voluptate
                     neque error aliquid saepe accusantium corporis aliquam, labore culpa ea quidem aut temporibus
                     corrupti, nihil veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste nemo,
@@ -201,6 +204,36 @@
         </div>
 
     </section>
+    <section id="certificate">
+
+
+        <div class="container">
+            
+            <div class="row">
+                <h4 data-aos="fade-up">Certified and Approved By</h4>
+
+                <div class="col-md-2 cert-img">
+                    <img src="{{ asset('/images/icons/haccp.png') }}" alt="">
+                </div>
+                <div class="col-md-2 cert-img">
+                    <img src="{{ asset('/images/icons/fda.png') }}" alt="">
+                </div>
+                <div class="col-md-2 cert-img">
+                    <img src="{{ asset('/images/icons/HALAL.jpg') }}" alt="">
+                </div>
+                <div class="col-md-2 cert-img">
+                    <img src="{{ asset('/images/icons/kosher.png') }}" alt="">
+                </div>
+                <div class="col-md-2 cert-img">
+                    <img src="{{ asset('/images/icons/fssai.png') }}" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
 @endsection
 
 @section('script')
@@ -210,6 +243,10 @@
             // Optional parameters
             direction: 'horizontal',
             loop: true,
+            autoplay: true,
+            autoplay: {
+                delay: 3000,
+            },
 
             // If we need pagination
             pagination: {
