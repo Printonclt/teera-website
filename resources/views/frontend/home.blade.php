@@ -8,7 +8,7 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <div class="swiper-slide slide-1">
                     <div class="hero-content">
                         <h2 class="hero-heading white-color">We think for tomorrow,<br><span style="color: #9c8253"> Not
                                 today</span></h2>
@@ -18,9 +18,9 @@
                             <a href="/about" class="primary-button">Read More</a>
                         </div>
                     </div>
-                    <img src="{{ asset('images/banner/banner.jpg') }}" alt="" srcset="">
+                    <img src="{{ asset('images/banner/slide02.jpg') }}" alt="" srcset="">
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide slide-2">
                     <div class="hero-content">
                         <h2 class="hero-heading white-color">Lorem Ipsum Dolersit Amet</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -29,9 +29,9 @@
                             <a href="Read More" class="primary-button">Read More</a>
                         </div>
                     </div>
-                    <img src="{{ asset('images/banner/banner.jpg') }}" alt="" srcset="">
+                    <img src="{{ asset('images/banner/slide01.jpg') }}" alt="" srcset="">
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide slide-3">
                     <div class="hero-content">
                         <h2 class="hero-heading white-color">Lorem Ipsum Dolersit Amet</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -40,7 +40,7 @@
                             <a href="Read More" class="primary-button">Read More</a>
                         </div>
                     </div>
-                    <img src="{{ asset('images/banner/banner.jpg') }}" alt="" srcset="">
+                    <img src="{{ asset('images/banner/slide03.jpg') }}" alt="" srcset="">
                 </div>
 
 
